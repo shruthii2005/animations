@@ -1,0 +1,247 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    text-align:center;
+    margin-top:300px;
+}
+h1{
+    text-align:center;
+}
+
+.card{
+    height:200px;
+    width:200px;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    background-color:brown;
+    box-shadow: 10px 10px 5px grey;
+    position: absolute;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS1x5nXZhyOZvIHUnX33k0nnyMYyl6Awk3zP5DqxIdJA&s=10');
+    background-size: cover;
+    transform: rotate(45deg);
+    transition-duration: 2s;
+    left:50%;
+    top:10%; 
+    animation: place 2s 1 normal forwards;
+
+}
+@keyframes place {
+    from{
+        position:absolute;
+        top:-300px;
+    
+    }
+    to{
+
+        right:500px;
+    }
+
+}
+
+.place1{
+    height:200px;
+    width:200px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    box-shadow: 10px 10px 5px grey;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRALerselRrtSU7jysNTh1tzmp2v6v3Yv8CT5OtOc8k8A&s=10');
+    position:absolute;
+    bottom: 1px;
+    transform:rotate(45deg);
+    transition-duration: 2s;
+    bottom:15%;
+    left:50%;
+    animation: place1 2s 1 normal forwards;
+
+
+}
+@keyframes place1 {
+    from{
+        position:absolute;
+        left:400px;
+    
+    }
+    to{
+
+        right:300px;
+    }
+
+}
+    
+
+
+
+.place2{
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    box-shadow: 10px 10px 5px grey;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9zUm4-xbZ1UjktxKHLU4lwUZtnVjLyR7mFiwK4oNMFA&s=10');
+    bottom: 20px;
+    right:20px;
+    position: absolute;
+    top: 1px;
+    background-size: cover;
+    transform:rotate(45deg);
+    transition-duration: 2s;
+    top:10%;
+    left:73%;
+    animation: place2 2s 1 normal forwards;
+
+}
+@keyframes place2 {
+    from{
+        position:absolute;
+        left:1500px;
+    
+    }
+    to{
+
+        right:20px;
+    }
+
+}
+    
+
+
+.place3{
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    box-shadow: 10px 10px 5px grey;
+    background-image:url('https://www.siddheshwarpearls.com/wp-content/uploads/elementor/thumbs/t2-r4c1gxa00jg6i8lggp7bh9al1bgbw8ti4ds2rwitcg.jpg');
+    bottom: 2px;
+    position: absolute;
+    right: 20px;
+    background-size: cover;
+    transform:rotate(45deg);
+    transition-duration: 2s;
+    bottom:15%;
+    left:73%;
+    animation: place3 2s 1 normal backwards;
+
+}
+@keyframes place3 {
+    from{
+        position:absolute;
+        bottom:-100px;
+    
+    }
+    to{
+
+        top:700px;
+    }
+
+}
+
+
+.place4{
+    height: 250px;
+    width: 250px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    background-color: brown;
+    box-shadow: 10px 10px 5px grey;
+    background-image: url('https://www.indiasinvitation.com/wp-content/uploads/2017/07/Best-Places-to-Visit-in-Hyderabad.png');
+    background-size: cover;
+    position:absolute;
+    top:30%;
+    left:60%;
+    transform:translate(-50%,-50%);
+    transform:rotate(45deg);
+    transition-duration: 2s;
+}
+.place4:hover{
+    transform:rotate(45deg)
+    rotate(360deg);
+}
+
+.heading{
+    color:rgb(195, 31, 31);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 00;
+    font-style: oblique;
+    text-align: right;
+    position: absolute;
+    transform:translate(-50%);
+    left:25%;
+    top:200px;
+    bottom:400px;
+    animation: heading 2s 1 normal backwards;
+
+}
+
+@keyframes heading {
+    from{
+        transform:translate(50px);
+
+    }
+    to{
+
+    }
+    
+}
+
+.view{
+    height: 45px;
+    width:80px;
+    font-size:20px ;
+    background-color:white ;
+    border-radius:18px;
+    position:absolute;
+    top:300px;
+    left:250px;
+    animation: view 2s 1 normal forwards;
+
+}
+
+@keyframes view {
+    from{
+        scale:1.1;
+    
+    }
+    to{
+
+        scale:1.4;
+    }
+
+}
+
+.explore{
+    height: 45px;
+    width:80px;
+    font-size:20px ;
+    background-color:white ;
+    border-radius:18px;
+    position:absolute;
+    top:300px;
+    left:400px;
+    animation: view 2s 1 normal forwards;
+
+}
+
+@keyframes view {
+    from{
+        scale:1.1;
+    
+    }
+    to{
+
+        scale:1.4;
+    }
+
+}
